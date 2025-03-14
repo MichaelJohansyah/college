@@ -1,2 +1,2 @@
-# College-Assignment
-Tempat untuk simpan file tugas kuliah 
+# College
+Tempat untuk simpan file kuliah 
