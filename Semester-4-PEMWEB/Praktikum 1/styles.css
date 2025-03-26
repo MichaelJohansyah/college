@@ -1,0 +1,102 @@
+/* mff belepotan */
+
+body {
+  background-color: rgb(30, 31, 32);
+  color: white;
+  font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  height: auto;
+  width: 100vh;
+  padding: 30px;
+  background: rgb(14, 14, 14);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-right-side {
+  display: flex;
+  justify-content: flex-end;
+}
+
+img {
+  width: 48px;
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: rgb(14, 14, 14);
+  border: 1px solid rgb(196 199 197);
+  border-radius: 4px;
+  padding: 13px 15px;
+  font-size: 16px;
+  height: 28px;
+  margin: 1px 1px 0 1px;
+  width: 90%;
+}
+
+input::placeholder {
+  color: rgb(196 199 197);
+}
+
+button {
+  background-color: rgb(168 199 250);
+  color: rgb(6 46 111);
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-left: 30px;
+  border: none;
+  font-weight: 500;
+}
+
+#sign-in-text {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: rgb(227 227 227);
+}
+
+#use-your-text {
+  font-size: 16px;
+}
+
+#forgot-email-text,
+#not-your-computer-text,
+#learn-more-text,
+#create-account-text {
+  font-size: 14px;
+}
+
+#forgot-email-text,
+#learn-more-text,
+#create-account-text {
+  color: rgb(168 199 250);
+}
+
+#not-your-computer-text {
+  color: rgb(196 199 197);
+}
+
+#learn-more-text {
+  margin-bottom: 40px;
+}
+
+#forgot-email-text {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+#create-account-text {
+  align-self: center;
+}
