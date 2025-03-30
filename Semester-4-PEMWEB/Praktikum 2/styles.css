@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(30, 31, 32);
+    color: rgb(227 227 227);
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial,
+        sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scoring, .result{
+    margin: 20px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons button {
+    font-size: 30px;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
